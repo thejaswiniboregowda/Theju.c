@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    char name;
+    int age;
+    char loc;
+    printf("your name=Theju\n");
+    printf("your age =18\n");
+    printf("your location= Nittur\n");
+    return 0;
+}
+
