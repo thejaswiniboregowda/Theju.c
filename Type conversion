@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main() {
+         float x = 5.35;
+         int y;
+         y=(int)x;
+         printf("%.2f \n", x);
+         return 0;
+}
