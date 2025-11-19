@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int array[5]={1,2,3,4,5};
+    int maximum = array[0];
+    for(int i=1;i<4;i++){
+        if(array[i] > maximum){
+            array[i] = maximum;
+        }
+        printf("%d",maximum);
+    }
+}
