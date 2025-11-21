@@ -1,0 +1,14 @@
+#include<stdio.h>
+ struct Student {
+     char name[6];
+     int age;
+ };
+ int main(){
+     struct Student s;
+     printf("Enter name");
+     scanf("%s",s.name );
+     printf("Enter age");
+     scanf("%d",s.age);
+     printf("%s%d\n",s.name, s.age);
+ }
+ 
